@@ -10,6 +10,9 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # Captura o contexto de execução do Azure ML
 run = Run.get_context()
 
+# Configurar o MLflow para usar o tracking URI correto no Azure ML
+mlflow.set_tracking_uri(run.experiment.workspace.get_mlflow_tracking_uri())
+
 # Argumentos para entrada de dados no Azure ML
 parser = argparse.ArgumentParser()
 parser.add_argument("--data_path", type=str, required=True)
