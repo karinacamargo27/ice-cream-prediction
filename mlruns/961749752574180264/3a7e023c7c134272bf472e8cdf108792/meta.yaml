@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/pessoal/OneDrive/Documents/Educacao/TI/Dados/ice-cream-prediction/mlruns/961749752574180264/3a7e023c7c134272bf472e8cdf108792/artifacts
+end_time: 1741827294460
+entry_point_name: ''
+experiment_id: '961749752574180264'
+lifecycle_stage: active
+run_id: 3a7e023c7c134272bf472e8cdf108792
+run_name: likeable-cat-720
+run_uuid: 3a7e023c7c134272bf472e8cdf108792
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741827290831
+status: 3
+tags: []
+user_id: pessoal
